@@ -8,6 +8,7 @@ body{
   width: 100vw;
   height: 100vh;
   display: flex;
+  background-color: transparent;
 }
 
 iframe{
@@ -15,8 +16,17 @@ iframe{
   width: 100%;
 }
 
+.container{
+  background-color: white;
+  padding: 2rem 2rem;
+  border-radius: 2%;
+}
 @media (min-width: 768px){
   body{
+    background-color: #018749;
     align-items: center;
+  }
+  .container{
+    background-color: none;
   }
 }
